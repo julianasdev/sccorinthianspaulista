@@ -2,7 +2,7 @@ let dados = [
     {
       titulo: "Zé Maria",
       descricao: "Jogar com raça era seu lema e, se precisasse, dava o sangue pelo time. E, apesar de não ter conseguido um título na Copa do Mundo de 1974, deu muitas alegrias à torcida corintiana. Na final do Paulistão de 1979, mesmo com um corte na cabeça e com a camisa manchada de sangue, Zé Maria permaneceu em campo até o apito final e o título do Corinthians.",
-      link: "https://pt.wikipedia.org/wiki/Jos%C3%A9_Maria_Rodrigues_Alvess",
+      link: "https://pt.wikipedia.org/wiki/Jos%C3%A9_Maria_Rodrigues_Alves",
       tags: "raça camisa sangue ze "
     },
     {
@@ -14,13 +14,13 @@ let dados = [
     {
       titulo: "Casagrande",
       descricao: "Centroavante de grande talento, Casagrande foi um dos principais nomes da Democracia Corintiana. Sua luta contra a dependência química e seu ativismo social o transformaram em um símbolo de superação e esperança para muitos brasileiros.",
-      link: "https://pt.wikipedia.org/wiki.org/Casagrande",
+      link: "https://pt.wikipedia.org/wiki/Walter_Casagrande",
       tags:"casa casão casao"
     },
     {
       titulo: "Wladimir",
       descricao: "Um dos pilares da Democracia Corintiana, Wladimir era conhecido por sua inteligência tática e sua visão de jogo. Sua participação no movimento foi fundamental para o sucesso da iniciativa.",
-      link: "https://pt.wikipedia.org/wiki/Wladimir_Belini",
+      link: "https://pt.wikipedia.org/wiki/Wladimir_Rodrigues_dos_Santos",
       tags:"lateral esquerdo zumbi "
     },
     {
