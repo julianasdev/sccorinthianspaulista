@@ -9,7 +9,7 @@ let dados = [
       titulo: "Sócrates",
       descricao: "Além de suas habilidades com a bola, ele era conhecido por sua inteligência e liderança, promovendo o debate e a participação de todos os membros do time nas decisões. Sua visão de futebol como um esporte coletivo e sua luta por uma sociedade mais justa transformaram-no em um dos maiores ídolos do Corinthians e um símbolo de resistência e esperança para muitos brasileiros.",
       link: "https://pt.wikipedia.org/wiki/S%C3%B3crates_Brasileiro_Sampaio_de_Souza_Vieira_de_Oliveira",
-      tags:"magrão doutor magrao socrates "
+      tags:"magrão doutor magrao socrates lider "
     },
     {
       titulo: "Casagrande",
