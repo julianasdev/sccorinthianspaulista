@@ -15,7 +15,7 @@ let dados = [
       titulo: "Casagrande",
       descricao: "Centroavante de grande talento, Casagrande foi um dos principais nomes da Democracia Corintiana. Sua luta contra a dependência química e seu ativismo social o transformaram em um símbolo de superação e esperança para muitos brasileiros.",
       link: "https://pt.wikipedia.org/wiki/Walter_Casagrande",
-      tags:"casa casão casao"
+      tags:"casa casão casao grande"
     },
     {
       titulo: "Wladimir",
