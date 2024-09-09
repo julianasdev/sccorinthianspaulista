@@ -3,7 +3,7 @@ let dados = [
       titulo: "Zé Maria",
       descricao: "Jogar com raça era seu lema e, se precisasse, dava o sangue pelo time. E, apesar de não ter conseguido um título na Copa do Mundo de 1974, deu muitas alegrias à torcida corintiana. Na final do Paulistão de 1979, mesmo com um corte na cabeça e com a camisa manchada de sangue, Zé Maria permaneceu em campo até o apito final e o título do Corinthians.",
       link: "https://pt.wikipedia.org/wiki/Jos%C3%A9_Maria_Rodrigues_Alvess",
-      tags: "raça camisa sangue"
+      tags: "raça camisa sangue ze "
     },
     {
       titulo: "Sócrates",
