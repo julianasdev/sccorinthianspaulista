@@ -4,7 +4,10 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color:#e0d8d8; /* Cor de fundo da página */
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7)), url('escudo-corinthians-dourado.png'); /* Gradiente com transparência + imagem */
+    background-size: contain; /* A imagem manterá as proporções, mas pode deixar espaços vazios */
+    background-position: center, 0% 50%; /* Centraliza a imagem e ajusta o gradiente */
+    background-repeat: no-repeat, no-repeat; /* Evita que ambos se repitam */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -12,6 +15,20 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
+    animation: animateGradient 8s ease infinite; /* Animação de gradiente */
+}
+
+/* Animação do gradiente */
+@keyframes animateGradient {
+    0% {
+        background-position: center, 0% 50%;
+    }
+    50% {
+        background-position: center, 100% 50%;
+    }
+    100% {
+        background-position: center, 0% 50%;
+    }
 }
 
 /* Estiliza os títulos h1 */
@@ -47,7 +64,7 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color:#B8860B; /* Cor de fundo do botão */
+    background-color:#b9994c; /* Cor de fundo do botão */
     color: #181813; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
@@ -71,7 +88,7 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #000000; /* Cor de fundo dos itens */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo preto com 50% de opacidade */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
@@ -87,7 +104,7 @@ section button:hover {
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #e5e9ec; /* Cor do texto dos links */
+    color: #b9994c; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -103,7 +120,6 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #000000; /* Cor de fundo do rodapé */
     color: #ffffff; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
@@ -113,6 +129,7 @@ footer {
     font-size: 1rem; /* Tamanho da fonte */
 }
 
+/* Responsividade para diferentes dispositivos */
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem; /* Tamanho da fonte em telas menores */
@@ -136,7 +153,6 @@ footer {
 
 /* Responsividade para celulares */
 @media (max-width: 480px) {
-
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
@@ -157,10 +173,6 @@ footer {
     }
 
     .item-resultado h2 {
-        font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
-    }
-
-    footer {
-        font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+        font-size: 1rem; /* Tamanho da fonte dos títulos em telas pequenas */
     }
 }
